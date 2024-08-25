@@ -1,7 +1,6 @@
 name: foo
 channels:
   - conda-forge
-  - bioconda
   - defaults
 dependencies:
   - python=3.9
@@ -10,4 +9,6 @@ dependencies:
   - pytorch
   - pytorch-lightning
   - wandb
-  - gReLU
+  - pip
+  - pip:
+    - gReLU
