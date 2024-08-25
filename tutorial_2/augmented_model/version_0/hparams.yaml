@@ -1,0 +1,18 @@
+data_params: {}
+model_params:
+  channels: 512
+  crop_len: 768
+  model_type: DilatedConvModel
+  n_conv: 8
+  n_tasks: 1
+train_params:
+  batch_size: 32
+  devices: 0
+  logger: csv
+  loss: poisson
+  lr: 0.001
+  max_epochs: 10
+  num_workers: 0
+  optimizer: adam
+  save_dir: tutorial_2
+  task: regression
