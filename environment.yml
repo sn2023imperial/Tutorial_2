@@ -4,9 +4,11 @@ channels:
   - defaults
 dependencies:
   - python=3.9
+  - gcc_linux-64
   - curl
   - zlib
   - numpy
+  - pytest
   - pyBigWig
   - pandas
   - pytorch
